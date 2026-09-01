@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+     <link rel="stylesheet" href="./booking.css">
+</head>
+<body>
+    <div class="cont-book">
+        <h1>
+            ShineUp
+        </h1>
+
+        <h2>
+            Welcome Back
+        </h2>
+        <p>
+            Please Book An appointment
+        </p>
+        
+        <form>
+            <label for="fullname">Full Name</label>
+            <input id="fullname" type="text" placeholder="Please Enter FullName" required>
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" type="tel" placeholder="01xxxxxxxxx" required>
+
+             <label for="service"> Choose service </label>
+            <select id="service"   name="service" multiple>
+                <option value="car wash">Car Wash</option>
+                <option value="change oil">Change Oil</option>
+                <option value="change tire">Change Tire</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="date">Choose Date</label>
+            <input id="date" type="date"  required>
+
+            
+            <label for="time">Choose Time</label>
+            <input id="time" type="time"  required>
+
+
+            
+            <button type="submit">
+                Book
+            </button>
+
+        </form>
+
+        <p class="back">
+            <a href="./index.html">
+                Back to ShineUp
+            </a>
+        </p>
+
+
+        </form>
+    </div>
+</body>
+</html>
